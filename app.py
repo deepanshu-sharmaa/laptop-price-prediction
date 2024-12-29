@@ -40,7 +40,7 @@ ssd = st.selectbox('SSD(in GB)', [8, 128, 256, 512, 1024, 0])
 
 gpu = st.selectbox('GPU', ['Intel', 'AMD', 'Nvidia'])
 
-os = st.selectbox('OS', ['Mac', 'Others / No Os / Linux', 'Windows'])
+os = st.selectbox('OS', ['Windows', 'Others / No Os / Linux', 'Mac'])
 
 if st.button('Predict Price'):
     ts = 1 if ts == "Yes" else 0
